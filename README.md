@@ -3,7 +3,7 @@
 A small web component that estimates reading time from the text in an element
 identified by its `for` attribute.
 
-```
+```html
 <h1>This Is Amazing Content</h1>
 <reading-time for="post-content"></reading-time>
 ...
@@ -20,7 +20,7 @@ roughly 265 words per minute in its [read-time guidance](https://help.medium.com
 
 The component adds no styles. Style `<reading-time>` with your own CSS.
 
-```
+```css
  reading-time {
     font-size: 0.875rem;
     font-style: italic;
